@@ -1,0 +1,29 @@
+{
+  "name": "fullstacknpm",
+  "version": "1.0.0",
+  "description": "NPM",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write *.js*",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARMpk-27/fullstackNPM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ARMpk-27/fullstackNPM/issues"
+  },
+  "homepage": "https://github.com/ARMpk-27/fullstackNPM#readme",
+  "devDependencies": {
+    "prettier": "^3.8.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
