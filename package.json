@@ -4,8 +4,9 @@
   "description": "NPM",
   "main": "index.js",
   "scripts": {
+    "start": "node src/index.js",
     "format": "prettier --write *.js*",
-    "start": "node index.js"
+    "dev" : "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/ARMpk-27/fullstackNPM#readme",
   "devDependencies": {
+    "nodemon": "^3.1.11",
     "prettier": "^3.8.0"
   },
   "dependencies": {
